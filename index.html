@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Boutique</title>
+        <link rel="icon" href="./img/lsf.png" type="image/png">
+        <link rel="stylesheet" href="./CSS/styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Aboreto&family=Poiret+One&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Aboreto&family=Afacad&display=swap" rel="stylesheet">
+    </head>
+    <body class="home-page">
+
+        <header class="hero">
+            <nav class="hero-nav">
+                <div class="nav-left">
+                    <i class="fa fa-bars" id="menuIcon"></i>
+                    <i class="fa fa-home"></i>
+                </div>
+
+                <div class="nav-right">
+                <!-- Contenedor de búsqueda -->
+                <div class="search-container">
+                    <i class="fa fa-search" id="searchIcon"></i>
+                    <div class="search-modal" id="searchModal">
+                        <input type="text" placeholder="Buscar" class="search-input">
+                        <div class="search-content">
+                            <h3>Búsqueda reciente</h3>
+                            <ul class="recent-searches">
+                                <li class="highlight">Top rojo violeta</li>
+                            </ul>
+                            <h3>Filtros</h3>
+                            <div class="filters">
+                                <span>Categoría</span>
+                                <span>Talla</span>
+                                <span>Color</span>
+                                <span>Precio</span>
+                            </div>
+                            <p><br><br><br><br><br><br><br><br></p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Resto de iconos -->
+                <a href="./inicio.html"><i class="fa fa-user"></i></a>
+                <a href="./favoritos.html"><i class="fa fa-heart"></i></a>
+                <a href="./cesta.html"><i class="fa fa-shopping-bag"></i></a>
+            </div>
+            </nav>
+            
+            <img src="./img/modelos.jpg" alt="Modelos" class="hero-img">
+            <div class="overlay"></div>
+            <div class="hero-content">
+                <img src="./img/lsf2.png" alt="Logo de Boutique" class="hero-logo">
+            </div>
+        </header>
+        <div class="mobile-menu" id="mobileMenu">
+            <ul>
+                <img src="./img/lsf.png" alt="Logo">
+                <li><a href="./productos.html">Nueva Colección</a></li>
+                <li class="sale-item"><a href="#">Rebajas</a> <i class="fas fa-fire"></i></li>
+                <li><a href="#">Vestidos</a></li>
+                <li><a href="#">Tops | Bodies</a></li>
+                <li><a href="#">Jeans</a></li>
+                <li><a href="#">Chamarras</a></li>
+                <li><a href="#">Blazers | Chalecos</a></li>
+                <li><a href="#">Playeras</a></li>
+                <li><a href="#">Faldas | Shorts</a></li>
+                <li><a href="#">Abrigos | Gabardinas</a></li>
+                <li><a href="#">Sudaderas | Joggers</a></li>
+                <li><a href="#">Cárdigans | Suéteres</a></li>
+            </ul>
+        </div>
+        <div class="hero-label">NUEVA COLECCIÓN</div>
+
+
+        <section class="seccion-temporada">
+            <div class="columna-izquierda">
+                <img src="./img/temporada.jpg" alt="Modelo" class="modelo">
+                <div class="circulo">
+                    <img src="./img/temporada2.jpg" alt="Chaqueta">
+                </div>
+            </div>
+
+            <div class="columna-derecha">
+                <h1 class="titulo">
+                    PARA ROPA DE <br>
+                    <h1 class="titulo2">TEMPORADA</h1>
+                </h1>
+                <p>
+                    Moda que abraza la <br>
+                    temporada.<br>
+                    Colores y texturas perfectas <br>
+                    para ti.
+                </p>
+                <a href="./productos.html">Ver más</a>
+                <div class="lineat"></div>
+            </div>
+        </section>
+
+        <section class="prendas">
+            <div class="productos">
+                <!-- Producto 1 -->
+                <div class="producto">
+                    <div class="imagen-con-overlay">
+                        <img src="./img/chamarra.jpg" alt="Chamarra café">
+                        <div class="overlay">
+                            <button class="ir">CHAMARRAS</button>
+                            <div class="lineac"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Producto 2 -->
+                <div class="producto">
+                    <div class="imagen-con-overlay">
+                        <img src="./img/blusa.jpg" alt="Top">
+                        <div class="overlayb">
+                            <button class="ir">BLUSAS</button>
+                            <div class="lineab"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Producto 3 -->
+                <div class="producto">
+                    <div class="imagen-con-overlay">
+                        <img src="./img/pantalon.jpg" alt="Pantalón">
+                        <div class="overlay">
+                            <button class="ir">PANTALONES</button>
+                            <div class="lineap"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+            <section class="tendencia">
+                <div class="etiqueta">TENDENCIA</div>
+
+                <div class="contenido-tendencia">
+                    <div class="texto-tendencia">
+                        <h2>EL TOP MÁS PEDIDO <br> DEL MES</h2>
+                        <p>
+                            En redes no paran de hablar<br />
+                            de este top.<br />
+                            ¿Ya tienes el tuyo?
+                        </p>
+                        <a href="./tendencia.html">
+                            <div class="btn-comprar">Comprar ahora</div>
+                        </a>
+                    </div>
+
+                    <div class="imagenes-tendencia">
+                    <img src="./img/top1.jpg" alt="Top detalle" class="img-redonda">
+                    <img src="./img/top2.jpg" alt="Modelo usando top" class="img-modelo">
+                    </div>
+                </div>
+            </section>
+
+        <section class="mejores-compras">
+            <h2>¡LAS COMPRAS MEJOR VALORADAS!</h2>
+
+            <div class="productos">
+            <!-- Producto 1 -->
+            <div class="producto">
+                <div class="imagen-con-overlay">
+                    <img src="./img/chamarra2.jpg" alt="Chamarra Mezclilla">
+                    <div class="overlay">
+                        <a href="./chamarra.html">
+                            <button class="comprar">Comprar ahora</button>
+                        </a>
+                        <div class="linea"></div>
+                    </div>
+                </div>
+                <div class="info">
+                    <div class="estrellas">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p>CHAMARRA MEZCLILLA</p>
+                </div>
+            </div>
+
+            <!-- Producto 2 -->
+            <div class="producto">
+                <div class="imagen-con-overlay">
+                    <img src="./img/blusa2.jpg" alt="Top Popelina">
+                    <div class="overlay">
+                        <a href="./tendencia.html">
+                            <button class="comprar">Comprar ahora</button>
+                        </a>
+                        <div class="linea"></div>
+                    </div>
+                </div>
+                <div class="info">
+                    <div class="estrellas">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p>TOP POPELINA</p>
+                </div>
+            </div>
+
+            <!-- Producto 3 -->
+            <div class="producto">
+                <div class="imagen-con-overlay">
+                    <img src="./img/pantalon2.jpg" alt="Pantalón Z0795">
+                    <div class="overlay">
+                        <button class="comprar">Comprar ahora</button>
+                        <div class="linea"></div>
+                    </div>
+                </div>
+                <div class="info">
+                    <div class="estrellas">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p>PANTALÓN Z0795</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="registro-section">
+            <h2>¡REGÍSTRATE AHORA Y OBTÉN UN<br>10% DE DESCUENTO EN TU PRIMERA COMPRA!</h2>
+            <p>Regístrate y accede a descuentos exclusivos y ofertas especiales.</p>
+
+            <div class="registro-form">
+                <input type="email" placeholder="Regístrate" />
+                <a href="./inicio.html">
+                    <button>Iniciar sesión</button>
+                </a>
+            </div>
+        </section>
+
+        <section class="about-section">
+            <div class="about-text">
+            <p>
+                Vendemos ropa exclusiva para mujeres con <br>
+                estilo y calidad. Nuestra misión es hacerte <br>
+                sentir segura y hermosa con cada prenda. <br>
+                Creemos en la confianza, exclusividad y <br>
+                tendencia, ofreciéndote moda actual, y una <br>
+                compra fácil.
+            </p>
+            </div>
+            <div class="about-logo">
+            <img src="./img/logo2.png" alt="Logo de la boutique">
+            </div>
+        </section>
+
+        <footer>
+            <div class="footer-left">
+            <a href="#">Métodos de envío y pago</a>
+            </div>
+            <div class="footer-right">
+                <a href="https://www.instagram.com">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                
+                <a href="https://www.facebook.com">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+
+                <a href="tel:+525512345678">
+                    <i class="fas fa-phone"></i>
+                </a>
+
+                <a href="https://www.google.com/maps">
+                    <i class="fas fa-map-marker-alt"></i>
+                </a>
+
+            </div>
+        </footer>
+
+        <script src="./js/app.js"></script>
+    </body>
+</html>

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Tendencias</title>
+        <link rel="icon" href="./img/lsf.png" type="image/png">
+        <link rel="stylesheet" href="./CSS/styles5.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Aboreto&family=Poiret+One&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Aboreto&family=Afacad&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header class="hero">
+            <nav class="hero-nav">
+                <div class="nav-left">
+                    <i class="fa fa-bars" id="menuIcon"></i>
+                    <a href="./index.html">
+                        <img src="./img/lsf.png" alt="Logo de Boutique" class="hero-logo">
+                    </a>
+                </div>
+
+                <div class="nav-right">
+                <!-- Contenedor de búsqueda -->
+                <div class="search-container">
+                    <i class="fa fa-search" id="searchIcon"></i>
+                    <div class="search-modal" id="searchModal">
+                        <input type="text" placeholder="Buscar" class="search-input">
+                        <div class="search-content">
+                            <h3>Búsqueda reciente</h3>
+                            <ul class="recent-searches">
+                                <li class="highlight">Top rojo violeta</li>
+                            </ul>
+                            <h3>Filtros</h3>
+                            <div class="filters">
+                                <span>Categoría</span>
+                                <span>Talla</span>
+                                <span>Color</span>
+                                <span>Precio</span>
+                            </div>
+                            <p><br><br><br><br><br><br><br><br></p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Resto de iconos -->
+                <a href="./inicio.html"><i class="fa fa-user"></i></a>
+                <a href="./favoritos.html"><i class="fa fa-heart"></i></a>
+                <a href="./cesta.html"><i class="fa fa-shopping-bag"></i></a>
+            </div>
+            </nav>
+            
+        </header>
+        <div class="mobile-menu" id="mobileMenu">
+            <ul>
+                <img src="./img/lsf.png" alt="Logo">
+                <li><a href="./productos.html">Nueva Colección</a></li>
+                <li class="sale-item"><a href="#">Rebajas</a> <i class="fas fa-fire"></i></li>
+                <li><a href="#">Vestidos</a></li>
+                <li><a href="#">Tops | Bodies</a></li>
+                <li><a href="#">Jeans</a></li>
+                <li><a href="#">Chamarras</a></li>
+                <li><a href="#">Blazers | Chalecos</a></li>
+                <li><a href="#">Playeras</a></li>
+                <li><a href="#">Faldas | Shorts</a></li>
+                <li><a href="#">Abrigos | Gabardinas</a></li>
+                <li><a href="#">Sudaderas | Joggers</a></li>
+                <li><a href="#">Cárdigans | Suéteres</a></li>
+            </ul>
+        </div>
+
+        <section class="producto-detalle">
+            <div class="producto-imagen">
+                <img src="./img/top2.jpg" alt="Top Popelina Pliegues">
+            </div>
+
+            <div class="producto-info">
+                <h2>TOP POPELINA PLIEGUES</h2>
+                <i class="fa-regular fa-heart icono-corazon"></i>
+                <p class="precio">$ 749.00</p>
+
+                <div class="colores">
+                <span>BLANCO / VERDE | 2890/420/063</span>
+                <div class="opciones-colores">
+                    <div class="color blanco"></div>
+                    <div class="color beige"></div>
+                    <div class="color negro"></div>
+                </div>
+                </div>
+
+                <button class="btn-anadir">AÑADIR</button>
+
+                <p class="descripcion">
+                Top de escote pico y tirantes finos ajustables. Detalle de pliegues.
+                Forro interior combinado. Cierre frontal con botones.
+                </p>
+
+                <ul class="links">
+                <li>MEDIDAS DEL PRODUCTO</li>
+                <li>COMPOSICIÓN, CARE & ORIGIN</li>
+                <li>VER DISPONIBILIDAD EN TIENDA</li>
+                <li>ENVÍOS, CAMBIOS Y DEVOLUCIONES</li>
+                </ul>
+            </div>
+        </section>
+
+
+        <section class="imagenes-tres">
+            <div class="contenedor-tres-imagenes">
+                <img src="./img/top1.jpg" alt="Imagen 1" class="fade-in">
+                <img src="./img/t3.jpg" alt="Imagen 2" class="fade-in">
+                <img src="./img/t4.jpg" alt="Imagen 3" class="fade-in">
+            </div>
+        </section>
+
+
+        <section class="imagenes-dos">
+            <div class="contenedor-imagenes">
+                <img src="./img/t5.jpg" alt="Top de frente" class="fade-in">
+                <img src="./img/t6.jpg" alt="Top de atras" class="fade-in">
+            </div>
+        </section>
+
+        <footer>
+            <div class="footer-left">
+            <a href="#">Métodos de envío y pago</a>
+            </div>
+            <div class="footer-right">
+                <a href="https://www.instagram.com">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                
+                <a href="https://www.facebook.com">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+
+                <a href="tel:+525512345678">
+                    <i class="fas fa-phone"></i>
+                </a>
+
+                <a href="https://www.google.com/maps">
+                    <i class="fas fa-map-marker-alt"></i>
+                </a>
+
+            </div>
+        </footer>
+
+        <script src="./js/app.js"></script>
+    </body>
+</html>
